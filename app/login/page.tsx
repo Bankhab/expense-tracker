@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 import { supabase } from "@/lib/supabase";
 
@@ -45,6 +46,15 @@ export default function Login() {
       >
         เข้าสู่ระบบ
       </button>
+      <p className="mt-4">
+        ยังไม่มีบัญชี?{" "}
+        <Link
+            href="/register"
+            className="text-blue-600 hover:underline"
+        >
+            สมัครสมาชิก
+        </Link>
+       </p>
     </div>
   );
 }
