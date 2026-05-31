@@ -162,7 +162,7 @@ export default function Home() {
 
           <div className="bg-white rounded-3xl shadow-xl p-6 border border-red-100">
             <p className="text-red-600 font-medium">
-              💸 รายจ่าย
+              💸 รายจ่าย A
             </p>
 
             <h2 className="text-4xl font-bold text-red-700 mt-3">
